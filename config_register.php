@@ -1,3 +1,32 @@
+
+<?php
+
+if(isset($_POST['email'])){
+
+    $email=$_POST['email'];
+$subject="Welcome From Climatrix!";
+$body="Thank you for registration";
+$headers="From:testmailsupuni123@gmail.com";
+
+if(mail($email,$subject,$body,$headers)){
+
+    echo "Email sent to $email";
+}else{
+
+    echo "Email sending failed";
+
+}
+
+}else{
+
+    echo "please give email";
+
+}
+
+
+?>
+
+
 <?php
 
 session_start();
@@ -17,7 +46,7 @@ if(isset($_POST['register_btn']))
 
      if($query_run)
      {
-       $_SESSION['status']= "Registration successful.";
+       $_SESSION['status']= "Registration successful.We sent you an email.";
         header("Location:register.php");
      }
      else
