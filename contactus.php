@@ -30,14 +30,9 @@ padding: 10px;
 <body>
   <!--navbar-->
   <?php include('navBar.php'); ?>
-
-<<<<<<< HEAD
-    </center>
-=======
->>>>>>> d865ee7d1e1f94e1d5cf5a6847dce85ca0dd6b7c
-
   <!--navbar-->
  
+     </center>
 
  <div class="container animated fadeIn">
  <div class="center">
