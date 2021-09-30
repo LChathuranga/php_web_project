@@ -95,7 +95,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <img src="./src/adds/1.png" height="150px">
+                      <img src="./src/adds/1.png" alt="Picture not Available" height="150px">
                     </li>
                   </ul>
                   <div class="d-flex">

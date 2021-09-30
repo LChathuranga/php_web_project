@@ -22,7 +22,9 @@
       if($_SESSION['sign_in'] == true){
 
         $user_id = $_SESSION['user_id'];
-        $table_name = $_SESSION['table'];
+        if(isset($_SESSION['table'])){
+          $table_name = $_SESSION['table'];
+        }
 
         $sql = "SELECT * FROM cart_details WHERE user_id = '".$user_id."'";
 

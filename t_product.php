@@ -1,6 +1,9 @@
 <?php 
 
 	$id = $_GET['id'];
+	session_start();
+
+	$_SESSION['id'] = $id;
 
 	if ($id == 'cc1') {
 		$_SESSION['table'] = 'computer_casing';
@@ -14,10 +17,5 @@
 
 
  ?>
-
- <form method="get" action="description.php">
- 	<input type="hidden" name="id" value="<?php echo $id; ?>">
- </form>
-
 
  <?php header("location: discryption.php"); ?>

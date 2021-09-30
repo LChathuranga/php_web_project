@@ -5,9 +5,12 @@
     $user = 'root';
     $password = '';
     $db = 'team_10';
-    $id = $_GET['id'];
 
     session_start();
+
+    
+    $id = $_GET['id'];
+
     $table_name = $_SESSION['table'];
     $_SESSION['id'] = $id;                //Create a session variable for storing product id
 
@@ -115,6 +118,7 @@
     <?php } ?>
     </div>
     </div>
+</div>
 </div>
 
     <?php include('footer.php') ?>
