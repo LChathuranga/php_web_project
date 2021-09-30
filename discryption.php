@@ -8,8 +8,11 @@
 
     session_start();
 
-    
-    $id = $_GET['id'];
+    if(isset($_GET['id'])){
+        $id = $_GET['id'];
+    }else{
+        $id = $_SESSION['id'];
+    }
 
     $table_name = $_SESSION['table'];
     $_SESSION['id'] = $id;                //Create a session variable for storing product id

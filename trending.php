@@ -26,7 +26,7 @@
                             <small><s class="text-secondary">LKR. 16,000</s></small>
                           <span class="price">LKR. 14,000</span>  
                         </h5>
-                        <a href="t_product.php"?id=cc1><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
+                        <a href="t_product.php?id=cc1"><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
                     </div>
                 </div>
          
@@ -51,7 +51,7 @@
                             <small><s class="text-secondary">LKR. 260,000</s></small>
                           <span class="price">LKR. 220,000</span>  
                         </h5>
-                        <a href="t_product.php"?id=g5><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
+                        <a href="t_product.php?id=g5"><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
                     </div>
                 </div>
         </div>
@@ -74,7 +74,7 @@
                             <small><s class="text-secondary">LKR. 62,200</s></small>
                           <span class="price">LKR. 60,000</span>  
                         </h5>
-                        <a href="t_product.php"?id=mb4><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
+                        <a href="t_product.php?id=mb4"><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
                     </div>
                 </div>
         </div>
@@ -98,7 +98,7 @@
                             <small><s class="text-secondary">LKR. 5,500</s></small>
                           <span class="price">LKR. 5,000</span>  
                         </h5>
-                        <a href="t_product.php"?id=r5><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
+                        <a href="t_product.php?id=r5"><button type="submit" class="btn btn-warning my-3" name="add">Visit Product</button></a>
                     </div>
                 </div>
         </div>
