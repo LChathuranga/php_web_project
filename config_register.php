@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$conn=mysqli_connect("localhost","root","","useraccounts");
+$conn=mysqli_connect("localhost","root","","team_10");
 
 if(isset($_POST['register_btn']))
 {

@@ -2,7 +2,7 @@
 
 session_start();
 
-$mysqli=new mysqli('localhost','root','','useraccounts') or die(mysqli_error($mysqli));
+$mysqli=new mysqli('localhost','root','','team_10') or die(mysqli_error($mysqli));
 
 $update=false;
 $customer_id='';

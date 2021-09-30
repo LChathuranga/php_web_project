@@ -21,7 +21,7 @@
         $host = 'localhost';
         $user = 'root';
         $password = '';
-        $db = 'products';
+        $db = 'team_10';
         $table = $_GET['category'];
 
         session_start();

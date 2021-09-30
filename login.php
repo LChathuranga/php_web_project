@@ -5,7 +5,7 @@ session_start();
 $host="localhost";
 $user="root";
 $password="";
-$db="useraccounts";
+$db="team_10";
 
 $_SESSION['sign_in'] = false;                //for checking if the customer login or not
 

@@ -4,7 +4,7 @@
     $host = 'localhost';
     $user = 'root';
     $password = '';
-    $db = 'products';
+    $db = 'team_10';
     $id = $_GET['id'];
 
     session_start();

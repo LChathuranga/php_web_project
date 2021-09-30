@@ -75,7 +75,7 @@
 
     <div class="row justify-content-center mx-3">
     <?php
-     $mysqli=new mysqli('localhost','root','','useraccounts') or die(mysqli_error($mysqli));
+     $mysqli=new mysqli('localhost','root','','team_10') or die(mysqli_error($mysqli));
      $result=$mysqli->query("SELECT * FROM sales_daily") or die($mysqli->error);
      
     ?>

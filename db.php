@@ -3,7 +3,7 @@
 	$host = 'localhost';
     $user = 'root';
     $password = '';
-    $db = 'products';
+    $db = 'team_10';
 
     $link = new MySQLi($host, $user, $password, $db);
 
